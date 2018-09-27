@@ -8,9 +8,21 @@ body {
 	display: flex;
 }
 
-.offset {
+.offset { /*this is to offset the fixed header*/
 	position: relative;
 	top: 4rem;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
 }
 
 /* fixed banner */
@@ -21,6 +33,8 @@ body {
 	height: 4rem;
 	position: fixed;
 	width: 100%;
+	z-index: 2;
+	background-color: white;
 }
 
 .logo {
@@ -35,4 +49,32 @@ body {
 
 .nav span {
 	padding-right: 16px;
+}
+
+/* large banner */
+
+.lrg_banner {
+	background-color: pink;
+}
+
+.lrg_banner img {
+	width: 60%;
+	height: 60%;
+	padding: 2rem 1.5rem;
+}
+
+.lrg_banner_two {
+	max-width: 30%;
+	margin: auto;
+}
+
+#bot_pad {
+	padding-bottom: 30px;
+}
+
+.button {
+	text-align: center;
+	background-color: red;
+	padding: 8px 0;
+	color: white;
 }
