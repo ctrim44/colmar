@@ -8,6 +8,10 @@ body {
 	display: flex;
 }
 
+.column {
+	flex-direction: column;
+}
+
 .offset { /*this is to offset the fixed header*/
 	position: relative;
 	top: 4rem;
@@ -77,4 +81,59 @@ h3 {
 	background-color: red;
 	padding: 8px 0;
 	color: white;
+}
+
+/* Keep practicing/Information */
+
+.info {
+	background-color: lightgreen;
+}
+
+.info_lrg_pic {
+	max-width: 60%;
+	height: auto;
+	padding: 2rem 1.5rem;
+}
+
+.info_lrg_pic img {
+	padding-right: 1.5rem;
+	padding-bottom: 2rem;
+	max-width: 100%;
+}
+
+.info_lrg_pic h1 {
+	padding-bottom: 1.5rem;
+}
+
+.info_lrg_pic p {
+	padding-bottom: 2rem;
+}
+
+.small_p {
+	font-size: .85rem;
+	padding-bottom: 0;
+}
+
+/* right hand side of Info section */
+
+.info_contain {
+	padding: 1rem;
+	border: 1px black dashed;
+	margin-top: 2rem;
+	margin-right: 1rem;
+}
+
+.info_contain img {
+	width: 35%;
+	height: 35%;
+}
+
+.info_contain_text {
+	padding-left: 1rem;
+	padding-top: 1.25rem;
+}
+
+.info_contain_text h2,
+.info_contain_text p {
+	padding-bottom: .5rem;
 }
