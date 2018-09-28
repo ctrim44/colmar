@@ -91,23 +91,23 @@ h3 {
 	background-color: lightgreen;
 }
 
-.info_lrg_pic {
+.lrg_pic {
 	max-width: 60%;
 	height: auto;
 	padding: 2rem 1.5rem;
 }
 
-.info_lrg_pic img {
+.lrg_pic img {
 	padding-right: 1.5rem;
 	padding-bottom: 2rem;
 	max-width: 100%;
 }
 
-.info_lrg_pic h1 {
+.lrg_pic h1 {
 	padding-bottom: 1.5rem;
 }
 
-.info_lrg_pic p {
+.lrg_pic p {
 	padding-bottom: 2rem;
 }
 
@@ -116,7 +116,7 @@ h3 {
 	padding-bottom: 0;
 }
 
-/* right hand side of Info section */
+/* right hand side of Info section AND exhibit section*/
 
 .info_contain {
 	padding: 1rem;
@@ -131,7 +131,7 @@ h3 {
 }
 
 .info_contain_text {
-	padding-left: 1rem;
+	padding: 1rem;
 }
 
 .info_contain_text h2,
@@ -180,4 +180,33 @@ h3 {
 .course_text p {
 	padding-bottom: .5rem;
 	opacity: .65;
+}
+
+/* thesis exhibit */
+
+.thesis {
+	background-color: orange;
+}
+
+.thesis h1 {
+	text-align: center;
+	padding: 2rem;
+}
+
+.exhibit {
+	max-width: 60%;
+	height: 100%;
+	padding-left: 1.5rem;
+}
+
+.exhibit video {
+	width: 100%;
+}
+
+.exhibit h2 {
+	padding-bottom: 1.5rem;
+}
+
+.ex_box {
+	margin-left: 1.5rem;
 }
