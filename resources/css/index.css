@@ -19,6 +19,14 @@ body {
 	top: 4rem;
 }
 
+h1,
+h2,
+h3,
+p,
+span {
+	font-family: "Noto Serif KR";
+}
+
 h1 {
 	font-size: 2.5rem;
 }
@@ -49,6 +57,14 @@ h3 {
 .logo {
 	align-items: center;
 	padding-left: 24px;
+}
+
+.logo span {
+	font-family: "Orbitron";
+}
+
+#transparent {
+	opacity: .6;
 }
 
 .nav {
@@ -154,6 +170,11 @@ h3 {
 .info_contain_text a {
 	color: rgb(67, 42, 0);
 }
+
+.info_contain_text a:hover {
+	background-color: rgb(255, 242, 220);
+}
+
 
 /*Start learning */
 
