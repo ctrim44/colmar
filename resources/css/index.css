@@ -186,6 +186,7 @@ h3 {
 
 .thesis {
 	background-color: orange;
+	padding-bottom: 2rem;
 }
 
 .thesis h1 {
@@ -201,6 +202,7 @@ h3 {
 
 .exhibit video {
 	width: 100%;
+	padding-bottom: .5rem;
 }
 
 .exhibit h2 {
@@ -209,4 +211,21 @@ h3 {
 
 .ex_box {
 	margin-left: 1.5rem;
+}
+
+/* footer */
+
+footer {
+	height: 5rem;
+	background-color: brown;
+}
+
+.foot {
+	padding: 1rem 1.5rem;
+	justify-content: space-between;
+	opacity: .6;
+}
+
+.foot_text span {
+	padding-left: 1rem;
 }
