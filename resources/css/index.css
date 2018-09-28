@@ -25,10 +25,12 @@ h1 {
 
 h2 {
 	font-size: 2rem;
+	color: rgb(255, 242, 220);
 }
 
 h3 {
 	font-size: 1.5rem;
+	color: rgb(255, 242, 220);
 }
 
 /* fixed banner */
@@ -40,7 +42,8 @@ h3 {
 	position: fixed;
 	width: 100%;
 	z-index: 2;
-	background-color: white;
+	background-color: rgb(92, 115, 145);
+	border-bottom: 1px solid rgb(2, 20, 44); 
 }
 
 .logo {
@@ -54,13 +57,17 @@ h3 {
 }
 
 .nav span {
-	padding-right: 16px;
+	padding: 1rem;
+}
+
+.nav span:hover {
+	background-color: rgb(162, 172, 185);
 }
 
 /* large banner */
 
 .lrg_banner {
-	background-color: pink;
+	background-color: rgb(162, 172, 185);
 }
 
 .lrg_banner img {
@@ -80,16 +87,16 @@ h3 {
 
 .button {
 	text-align: center;
-	background-color: red;
+	background-color: rgb(92, 115, 145);
 	padding: 8px 0;
 	color: white;
 }
 
-/* Keep practicing/Information */
-
-.info {
-	background-color: lightgreen;
+.button:hover {
+	color: black;
 }
+
+/* Keep practicing/Information */
 
 .lrg_pic {
 	max-width: 60%;
@@ -114,15 +121,20 @@ h3 {
 .small_p {
 	font-size: .85rem;
 	padding-bottom: 0;
+	font-style: italic;
 }
 
 /* right hand side of Info section AND exhibit section*/
 
 .info_contain {
 	padding: 1rem;
-	border: 1px black dashed;
+	background-color: rgb(92, 115, 145);
 	margin-top: 2rem;
 	margin-right: 1rem;
+}
+
+.info_contain:hover {
+	background-color: rgb(221, 187, 132);
 }
 
 .info_contain img {
@@ -139,10 +151,14 @@ h3 {
 	padding-bottom: .5rem;
 }
 
+.info_contain_text a {
+	color: rgb(67, 42, 0);
+}
+
 /*Start learning */
 
 .learn {
-	background-color: rebeccapurple;
+	background-color: rgb(162, 172, 185);
 }
 
 .learn h1 {
@@ -161,7 +177,7 @@ h3 {
 	max-width: 30%;
 	margin-right: .5rem;
 	margin-bottom: 1.5rem;
-	background-color: lightblue;
+	background-color: rgb(92, 115, 145);
 }
 
 .course_box img {
@@ -185,7 +201,6 @@ h3 {
 /* thesis exhibit */
 
 .thesis {
-	background-color: orange;
 	padding-bottom: 2rem;
 }
 
@@ -207,6 +222,7 @@ h3 {
 
 .exhibit h2 {
 	padding-bottom: 1.5rem;
+	color: black;
 }
 
 .ex_box {
@@ -217,7 +233,7 @@ h3 {
 
 footer {
 	height: 5rem;
-	background-color: brown;
+	background-color: rgb(162, 172, 185);
 }
 
 .foot {
