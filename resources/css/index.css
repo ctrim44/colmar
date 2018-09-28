@@ -137,3 +137,46 @@ h3 {
 .info_contain_text p {
 	padding-bottom: .5rem;
 }
+
+/*Start learning */
+
+.learn {
+	background-color: rebeccapurple;
+}
+
+.learn h1 {
+	text-align: center;
+	padding-top: 2rem;
+}
+
+.courses {
+	padding: 2rem 2.5rem;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.course_box {
+	min-width: 25%;
+	max-width: 30%;
+	margin-right: .5rem;
+	margin-bottom: 1.5rem;
+	background-color: lightblue;
+}
+
+.course_box img {
+	height: auto;
+	width: 100%;
+}
+
+.course_text {
+	padding: 1.5rem;
+}
+
+.course_text h3 {
+	padding-bottom: 1rem;
+}
+
+.course_text p {
+	padding-bottom: .5rem;
+	opacity: .65;
+}
