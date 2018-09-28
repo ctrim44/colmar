@@ -127,7 +127,7 @@ h3 {
 
 .info_contain img {
 	width: 35%;
-	height: 35%;
+	height: auto;
 }
 
 .info_contain_text {
