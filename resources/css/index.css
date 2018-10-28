@@ -50,6 +50,24 @@ h3 {
 	color: rgb(255, 242, 220);
 }
 
+@media only screen and (max-width: 900px) {
+	.tablet_hide {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 901px) {
+	.desktop_hide {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.mobile_hide {
+		display: none;
+	}
+}
+
 /* fixed banner */
 
 .fixed {
@@ -104,10 +122,30 @@ h3 {
 	background-color: rgb(162, 172, 185);
 }
 
+@media only screen and (max-width: 900px) {
+
+	.logo {
+		width: 100%;
+		justify-content: space-between;
+		padding-right: 1.5rem;
+
+	}
+	.logo img {
+		height: 50px;
+		width: auto;
+	}
+}
+
 /* large banner */
 
 .lrg_banner {
 	background-color: rgb(162, 172, 185);
+}
+
+@media only screen and (max-width: 900px) {
+	.lrg_banner {
+		flex-direction: column;
+	}
 }
 
 .lrg_banner img {
@@ -117,9 +155,25 @@ h3 {
 	padding: 2rem 1.5rem;
 }
 
+@media only screen and (max-width: 900px) {
+	.lrg_banner img {
+		height: auto;
+		width: 100%;
+		padding: 2rem 0;
+	}
+}
+
 .lrg_banner_two {
 	max-width: 30%;
 	margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+	.lrg_banner_two {
+		max-width: 95%;
+		text-align: center;
+		padding-bottom: 1rem;
+	}
 }
 
 #bot_pad {
@@ -131,6 +185,12 @@ h3 {
 	background-color: rgb(92, 115, 145);
 	padding: 8px 0;
 	color: white;
+}
+
+@media only screen and (max-width: 900px) {
+	.button {
+		padding: 1rem 0;
+	}
 }
 
 .button:hover {
@@ -181,6 +241,37 @@ h3 {
 	margin-top: 2rem;
 	margin-right: 16px;
 	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+	.info_contain h2 {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	
+	.info {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.info_contain {
+		flex-direction: column;
+		max-width: 900px;
+		margin: 0;
+		padding: 0;
+		border-bottom: 1px solid rgb(162, 172, 185);
+		text-align: center;
+	}
+
+	.info_contain img {
+		border: 3px yellow solid;
+		width: 100%;
+		height: auto;
+	}
+
 }
 
 .info_contain:hover {
@@ -266,6 +357,29 @@ h3 {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
 }
 
+@media only screen and (max-width: 700px) {
+	.course_text h3 {
+		font-size: 1rem;
+	}
+
+	.course_text p {
+		font-size: .75rem;
+	}
+}
+
+.learning_mobile {
+	padding: 1rem .5rem;
+}
+
+.learning_mobile p {
+	font-size: 1.15rem;
+	padding: 1rem 0;
+	margin: .5rem 0;
+	background-color: rgb(92, 115, 145);
+	text-align: center;
+	color: rgb(255, 242, 220);
+}
+
 /* thesis exhibit */
 
 .thesis {
@@ -301,6 +415,16 @@ h3 {
 .ex_box {
 	margin-left: 24px;
 	margin-left: 1.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+	.thesis {
+		max-width: 100%;
+	}
+
+	.thesis_video video{
+		max-width: 100%;
+	}
 }
 
 /* footer */
